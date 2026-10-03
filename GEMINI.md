@@ -26,7 +26,7 @@
 
 1. **Pin Configuration:**
     - **ห้ามแก้ไข** รายการใน `ROW_PORTS/PINS` และ `COL_PORTS/PINS` ใน `keyboard_matrix.c` โดยพลการ เนื่องจากผูกกับ Screw Terminal บน Hardware
-    - การกำหนดขา (Hardware Mapping) ต้องตรงกับ `PINOUT.md` เสมอ
+    - การกำหนดขา (Hardware Mapping) ต้องตรงกับ `docs/PINOUT.md` เสมอ
 2. **STM32F7 Audio Standards:**
     - ต้องใช้ **Signed int16_t** สำหรับ Audio Buffer เพื่อให้ตรงกับมาตรฐาน I2S ของ PCM5102A
     - ต้องเปิดใช้งาน **PLLI2S** ใน SystemClock_Config เสมอ

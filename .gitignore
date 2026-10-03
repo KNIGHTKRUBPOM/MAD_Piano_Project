@@ -1,6 +1,7 @@
-# STM32CubeIDE/Eclipse/C/C++ Build Artifacts
+# STM32CubeIDE / Eclipse / C/C++ Build Artifacts
 Debug/
 Release/
+build/
 *.elf
 *.bin
 *.hex
@@ -11,19 +12,27 @@ Release/
 *.su
 *.cyclo
 
-# Local IDE Settings
+# Local IDE & Debugger Settings
 .settings/
 *.launch
+.vscode/
+.idea/
+*.workspace
 
-# Temporary/Backup Files
+# Temporary / Backup / Swap Files
 *.bak
 *~
 *.tmp
 *.log
+*.swp
+*.swo
+*.orig
 
-# System Files
+# Operating System Files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
 
 # Dolt database files (added by bd init)
 .dolt/
